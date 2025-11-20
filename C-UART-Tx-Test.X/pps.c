@@ -6,7 +6,7 @@ void PPS_Initialize(void)
     /* sequence for unlock PPS */
     PPS_unlock();
       
-    /* UART1_TX is connected to RF7 pin */
+    /* UART1_TX is connected to RC3 pin */
     RC4PPS = 0x20;
     
     /* sequence for lock PPS */
